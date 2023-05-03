@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+    <title>Document</title>
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <center>
+        <body>
+        {% block body %}
+        <h1 style="color:darkblue;">krithi shetty</h1>
+
+        {% endblock %}
+        </body>
+        <img src="{% static 'images/krithi.jpg' %}" alt="" srcset="">
+    </center>
+</head>
+<body>
+    <center>
+        <h3 style="color:chocolate;">she is cute,innocent girl and she come to industry at very early age</h3>
+        <a href="https://www.google.com/search?q=kruthi+shetty&oq=&aqs=chrome.5.69i59i450l8.161870j0j7&sourceid=chrome&ie=UTF-8"><h1 class="btn btn-success"> click here and show more </h1></a>
+    </center>
+    <script src="{% static 'js/mdb.min.js' %}"></script>
+    <center>
+    <h1 style="color: crimson;">conformation:-</h1>
+      <form>
+        <label style="color:indigo;"><h1>she is cute</label></h1> 
+          <input type="radio" name="r1">yes</input>
+          <input type="radio" name="r1">no</input>
+      </form>
+    </center>
+</body>
+</html>
